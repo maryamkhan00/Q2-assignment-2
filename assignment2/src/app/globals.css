@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.body {
+  background-color: black;
+  width: max-content;
+  height: max-content;
+}
+
+.parentDiv {
+  display: flex;
+  align-items: centre;
+  justify-content: space-between;
+  color: white;
+}
+
+.child1 {
+  width: fit-content;
+  height: 250px;
+  margin: 40px;
+  font-size: 80px;
+  font-weight: 900px;
+}
+
+.name {
+  color: rgba(207, 4, 4, 0.678);
+}
+
+.child2{
+  margin: 40px;
+  padding: 40px;
+}
+
+.profile{
+  width: 450px;
+  height: 300px;
+}
